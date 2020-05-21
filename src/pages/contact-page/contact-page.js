@@ -1,11 +1,11 @@
 import React from 'react';
 
-function IndexPage() {
+function ContactPage() {
 	return (
 		<div>
-			<h1>Index Page</h1>
+			<h1>Contact Page</h1>
 		</div>
 	);
 }
 
-export default IndexPage;
+export default ContactPage;
