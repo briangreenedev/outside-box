@@ -7,6 +7,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import { useTheme } from '@material-ui/core/styles';
 import {CssBaseline} from "@material-ui/core";
+import LoginPage from "../../pages/LoginPage";
 
 function App() {
   const theme = useTheme()
@@ -19,6 +20,7 @@ function App() {
       <div style={{marginTop: '100px'}}>
         <Switch>
           <Route path="/contact" component={ContactPage}/>
+          <Route path="/login" component={LoginPage}/>
           <Route path="/" component={IndexPage}/>
         </Switch>
       </div>
